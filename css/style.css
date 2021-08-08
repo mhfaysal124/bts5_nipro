@@ -1,0 +1,376 @@
+/* {{{{{{{{{{{{{{{{{{{Fonts Start}}}}}}}}}}}}}}}} */
+/* ============================================== */
+    @font-face {
+        font-family: Roboto;
+        src: url(../font/Roboto/Roboto-Regular.ttf);
+    }
+
+    @font-face {
+        font-family: Roboto;
+        src: url(../font/Roboto/Roboto-Medium.ttf);
+    }
+
+    @font-face {
+        font-family: Lato;
+        src: url(../font/Lato/Lato-Regular.ttf);
+    }
+
+    @font-face {
+        font-family: Lato;
+        src: url(../font/Lato/Lato-Bold.ttf);
+    }
+/* {{{{{{{{{{{{{{{{{{{Fonts End}}}}}}}}}}}}}}}} */
+
+
+
+
+/* {{{{{{{{{{{{{{{{{{{ Common css Start}}}}}}}}}}}}}}}} */
+/* =================================================== */
+body{
+    font-family: lato;
+    font-weight: 400;
+    color: #969696;
+}
+a{
+    text-decoration: none;
+}
+.c_btn_focus:focus {
+    box-shadow: none;
+}
+.c_form_focus{
+    outline: none;
+    box-shadow: none;
+}
+.pb_100{
+    padding-bottom: 100px
+}
+/* {{{{{{{{{{{{{{{{{{{ Common css End}}}}}}}}}}}}}}}} */
+
+ 
+
+
+
+
+/* {{{{{{{{{{{{{{{{{{{ header Start}}}}}}}}}}}}}}}} */
+/* =================================================== */
+header{
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+.logo_upper {
+    height: 28px;
+    width: 2px;
+    margin: 0 auto;
+    background-color: #333333;
+}
+.logo{
+    font-size: 30px;
+    color: #333333;
+    margin: 0;
+    padding: 2px 0;
+    text-transform: uppercase;
+}
+.c_navbar{
+    padding: 0;
+    margin: 0;
+}
+.c_collapse{
+    margin-top: 28px;
+}
+.c_searchBox{
+    width: 420px;
+}
+.c_dropdown[data-bs-popper] {
+    left: -337px;
+    margin-top: 0;
+    padding: 0;
+}
+.c_navbar_toggler{
+    margin-top: 25px;
+}
+.c_form_focus:focus{
+    outline: 0;
+    box-shadow: none;
+    border-color: #d9d9d9;
+}
+
+/* {{{{{{{{{{{{{{{{{{{ header End}}}}}}}}}}}}}}}} */
+
+
+
+/* {{{{{{{{{{{{{{{{{{{ slider Start}}}}}}}}}}}}}}}} */
+/* =================================================== */
+.slider{
+    background-image: url(../img/slider_bg_img.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.py_100{
+    padding: 100px 0;
+}
+.carousel_title{
+    font-size: 60px;
+    font-weight: 700;
+}
+.carousel_text{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 52px 0;
+}
+.carousel_btn{
+    background-color: #fff;
+    color: #969696;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 25px;
+    border: 2px solid transparent;
+    border-radius: 0;
+    transition: .4s;
+}
+.carousel_btn:hover{
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+}
+.carousel_btn:focus{
+    box-shadow: none;
+}
+.c_prev, .c_next{
+    color: #969696;
+    margin-top: 550px;
+    font-size: 20px;
+}
+.c_prev{
+    left: 0;
+}
+.c_prev:focus{
+    outline: none;
+    color: #969696;
+}
+.c_prev:hover{
+    color: #333333;
+}
+.c_next{
+    left: 70px;
+}
+.c_next:focus{
+    outline: none;
+    color: #969696;
+}
+.c_next:hover{
+    color: #333333;
+}
+.inner_design{
+    margin-left: 77px;
+}
+.inner_prev_next{
+    height: 17px;
+    width: 2px;
+    background-color: #969696;
+    display: inline-block;
+    margin-top: 22px;
+}
+.middel{
+    height: 20px;
+}
+????????????????????????????????????????????????
+???????????????????????????????????????????????????
+???????????????????????????????????????????????????
+??????????????????????????????????????????????????
+
+/* {{{{{{{{{{{{{{{{{{{ slider End}}}}}}}}}}}}}}}} */
+
+
+
+
+
+/* {{{{{{{{{{{{{{{{{{{ Welcome section Start}}}}}}}}}}}}}}}} */
+/* =================================================== */
+/* Common title start*/
+.common_design{}
+.common_design{
+    width: 2px;
+    height: 37px;
+    display: inline-block;
+    background-color: #969696;
+}
+.c_title{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #333333;
+    margin-bottom: 30px;
+}
+.c_text{
+    margin-bottom: 70px;
+}
+/* Common title End*/
+/* Single item start */
+.single_border{
+    border: 2px solid #969696;
+    margin-right: 30px;
+    transition: .3s;
+}
+.single_border:hover{
+    border: 2px solid #333333;
+}
+.single_border:last-child{
+    margin-right: 0;
+}
+.single_logo i{    
+    background-color: white;
+    padding: 15px;
+    font-size: 50px;
+    margin-top: -40px;
+    margin-bottom: 30px;
+    transition: .3s;
+}
+.single_title{
+    font-size: 24px;
+    font-weight: 700;
+    color: #333333;
+    margin: 0;
+    text-transform: uppercase;
+}
+.single_design{
+    width: 70px;
+    height: 2px;
+    display: inline-block;
+    background-color: #969696;
+    margin: 24px 0 18px 0;
+}
+.single_text{
+    font-size: 16px;
+    margin: 0;
+}
+.single_link{
+    font-family: Roboto;
+    text-transform: uppercase;
+    color: #969696;
+    font-size: 20px;
+    font-weight: 500;
+    display: block;
+    margin: 30px 0;
+    transition: .3s;
+}
+.single_border:hover .single_logo i,
+.single_border:hover .single_link
+{
+    color: #333333;
+}
+/* Single item End */
+/* {{{{{{{{{{{{{{{{{{{ Welcome section End}}}}}}}}}}}}}}}} */
+
+
+
+
+
+/* {{{{{{{{{{{{{{{{{{{ About section css Start}}}}}}}}}}}}}}}} */
+/* =================================================== */
+.about_img{
+    
+}
+.about_title{
+    font-size: 32px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.about_text{
+    font-family: 'Roboto';
+    font-weight: 400;
+    margin: 25px 0;
+}
+.about_btn{
+    border: 2px solid #969696;
+    border-radius: 0;
+    color: #969696;
+    transition: .3s;
+}
+.about_btn:hover{
+    border: 2px solid #333333;
+}
+.about_btn:focus{
+    outline: 0;
+    box-shadow: none;
+}
+/* {{{{{{{{{{{{{{{{{{{ About section css End}}}}}}}}}}}}}}}} */
+
+
+
+
+
+/* {{{{{{{{{{{{{{{{{{{Common css Start}}}}}}}}}}}}}}}} */
+/* =================================================== */
+
+/* {{{{{{{{{{{{{{{{{{{Common css End}}}}}}}}}}}}}}}} */
+
+
+
+
+
+/* {{{{{{{{{{{{{{{{{{{Common css Start}}}}}}}}}}}}}}}} */
+/* =================================================== */
+
+/* {{{{{{{{{{{{{{{{{{{Common css End}}}}}}}}}}}}}}}} */
+
+
+
+
+
+/* {{{{{{{{{{{{{{{{{{{Common css Start}}}}}}}}}}}}}}}} */
+/* =================================================== */
+
+/* {{{{{{{{{{{{{{{{{{{Common css End}}}}}}}}}}}}}}}} */
+
+
+
+
+
+/* {{{{{{{{{{{{{{{{{{{Common css Start}}}}}}}}}}}}}}}} */
+/* =================================================== */
+
+/* {{{{{{{{{{{{{{{{{{{Common css End}}}}}}}}}}}}}}}} */
+
+
+
+
+
+/* {{{{{{{{{{{{{{{{{{{Common css Start}}}}}}}}}}}}}}}} */
+/* =================================================== */
+
+/* {{{{{{{{{{{{{{{{{{{Common css End}}}}}}}}}}}}}}}} */
+
+
+
+
+
+/* {{{{{{{{{{{{{{{{{{{Common css Start}}}}}}}}}}}}}}}} */
+/* =================================================== */
+
+/* {{{{{{{{{{{{{{{{{{{Common css End}}}}}}}}}}}}}}}} */
+
+
+
+
+
+/* {{{{{{{{{{{{{{{{{{{Common css Start}}}}}}}}}}}}}}}} */
+/* =================================================== */
+
+/* {{{{{{{{{{{{{{{{{{{Common css End}}}}}}}}}}}}}}}} */
+
+
+
+
+
+/* {{{{{{{{{{{{{{{{{{{Common css Start}}}}}}}}}}}}}}}} */
+/* =================================================== */
+
+/* {{{{{{{{{{{{{{{{{{{Common css End}}}}}}}}}}}}}}}} */
+
+
+
+
+

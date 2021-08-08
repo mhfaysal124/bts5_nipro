@@ -1,0 +1,269 @@
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/*Extra small devices (portrait phones, less than 576px)*/
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+@media (max-width: 575.98px) {
+    /*Common start*/
+    .pb_100{
+        padding-bottom: 40px;
+    }
+    /*Common End*/
+
+    /* Header start*/
+    .logo{
+        font-size: 22px;
+    }
+    .c_dropdown[data-bs-popper] {
+        left: 0;
+    }
+    .c_searchBox {
+        width: 290px;
+    }
+    /* Header End */
+    /*Slider start*/
+    .py_100 {
+        padding: 40px 0;
+    }
+    .carousel_title {
+        font-size: 27px;
+    }
+    .carousel_text {
+        padding: 25px 0;
+        line-height: 21px;
+    }
+    .carousel_btn{
+        font-size: 20px;
+    }
+    .c_prev, .c_next {
+        margin-top: 370px;
+    }
+    .inner_design {
+        margin-left: 51px;
+    }
+    /*Slider End*/
+    /*Welcome section start*/
+    .c_title {
+        font-size: 28px;
+    }
+    /*Welcome section start*/    
+    /*About section start*/
+    .about_title{
+        margin-top: 25px;
+        font-size: 27px;
+    }
+    .about_img {
+        width: 100%;
+    }
+    .about_text {
+        margin: 12px 0;
+    }
+    /*About section End*/
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/*Small devices (landscape phones, 576px and up)*/
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* Header start */
+    .logo{
+        font-size: 25px;
+    }
+    .c_dropdown[data-bs-popper] {
+        left: 0;
+    }
+    /* Header End */ 
+    /*Slider start*/
+    .py_100 {
+        padding: 70px 0;
+    }
+    .carousel_text {
+        padding: 40px 0;
+    }
+    .carousel_title {
+        font-size: 45px;
+    }
+    .c_prev, .c_next {
+        margin-top: 480px;
+    }
+    .inner_design {
+        margin-left: 69px;
+    }
+    /*Slider End*/
+    
+    /*About section start*/
+    .about_title{
+        margin-top: 25px;
+    }
+    .about_img {
+        width: 100%;
+    }
+    .about_text {
+        margin: 12px 0;
+    }
+    /*About section End*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/*Medium devices (tablets, 768px and up)*/
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*Common start*/
+    .pb_100{
+        padding-bottom: 70px;
+    }
+    /*Common End*/
+
+    /* Header start */
+    .logo{
+        font-size: 25px;
+    }
+    .c_dropdown[data-bs-popper] {
+        left: 0;
+    }
+    /* Header End */
+    /*Slider start*/
+    .py_100 {
+        padding: 70px 0;
+    }
+    .carousel_text {
+        padding: 40px 0;
+    }
+    .carousel_title {
+        font-size: 45px;
+    }
+    .c_prev, .c_next {
+        margin-top: 480px;
+    }
+    .inner_design {
+        margin-left: 69px;
+    }
+    /*Slider End*/
+    /*About section start*/
+    .about_title{
+        margin-top: 25px;
+    }
+    .about_img {
+        width: 100%;
+    }
+    .about_text {
+        margin: 12px 0;
+    }
+    /*About section End*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/*Large devices (desktops, 992px and up)*/
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /*Slider start*/
+    .carousel_title {
+        font-size: 50px;
+    }
+    .inner_design {
+        margin-left: 70px;
+        margin-bottom: 0;
+    }
+    /*Slider End*/
+    /*About section start*/
+    .about_img {
+        width: 95%;
+    }
+    .about_text {
+        margin: 12px 0;
+    }
+    /*About section End*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+ /*X-Large devices (large desktops, 1200px and up)*/
+ /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/*XX-Large devices (larger desktops, 1400px and up)*/
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+@media (min-width: 1400px) {
+
+}
