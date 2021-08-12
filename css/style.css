@@ -24,6 +24,18 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+/* =================================================== */
 /* {{{{{{{{{{{{{{{{{{{ Common css Start}}}}}}}}}}}}}}}} */
 /* =================================================== */
 body{
@@ -38,11 +50,26 @@ a{
     box-shadow: none;
 }
 .c_form_focus{
-    outline: none;
+    border: none;
+    padding: 10px;
+}
+.c_form_focus:focus{
+    outline: 0;
+    box-shadow: none;
+    border-color: #d9d9d9;
+}
+.btn-check:focus + .btn, .btn:focus{
+    box-shadow: none;
+}
+.form-control:focus {
+    outline: 0;
     box-shadow: none;
 }
 .pb_100{
     padding-bottom: 100px
+}
+.px_100{
+    padding: 100px 0;
 }
 /* {{{{{{{{{{{{{{{{{{{ Common css End}}}}}}}}}}}}}}}} */
 
@@ -51,6 +78,19 @@ a{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+/* =================================================== */
 /* {{{{{{{{{{{{{{{{{{{ header Start}}}}}}}}}}}}}}}} */
 /* =================================================== */
 header{
@@ -88,16 +128,28 @@ header{
 .c_navbar_toggler{
     margin-top: 25px;
 }
-.c_form_focus:focus{
-    outline: 0;
-    box-shadow: none;
-    border-color: #d9d9d9;
+.s_btn{
+    background-color: #969696;
+    color: #ffffff;
 }
 
 /* {{{{{{{{{{{{{{{{{{{ header End}}}}}}}}}}}}}}}} */
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+/* =================================================== */
 /* {{{{{{{{{{{{{{{{{{{ slider Start}}}}}}}}}}}}}}}} */
 /* =================================================== */
 .slider{
@@ -177,17 +229,25 @@ header{
 .middel{
     height: 20px;
 }
-????????????????????????????????????????????????
-???????????????????????????????????????????????????
-???????????????????????????????????????????????????
-??????????????????????????????????????????????????
-
 /* {{{{{{{{{{{{{{{{{{{ slider End}}}}}}}}}}}}}}}} */
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+/* =================================================== */
 /* {{{{{{{{{{{{{{{{{{{ Welcome section Start}}}}}}}}}}}}}}}} */
 /* =================================================== */
 /* Common title start*/
@@ -247,7 +307,7 @@ header{
     margin: 0;
 }
 .single_link{
-    font-family: Roboto;
+    font-family: 'Roboto';
     text-transform: uppercase;
     color: #969696;
     font-size: 20px;
@@ -268,6 +328,18 @@ header{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+/* =================================================== */
 /* {{{{{{{{{{{{{{{{{{{ About section css Start}}}}}}}}}}}}}}}} */
 /* =================================================== */
 .about_img{
@@ -302,75 +374,506 @@ header{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+/* =================================================== */
+/* {{{{{{{{{{{{{{{{{{{ Recent work (portfolio) Start }}}}}}}}}}}}}}} */
+/* =================================================== */
+.bg_color{
+    background-color: #f8f8f8;
+}
+
+.portfolio_nav{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.portfolio_nav li{}
+.portfolio_nav li a{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+.portfolio_nav li:first-child a{
+    border: 2px solid #333333;
+}
+
+.item_1_wrapper{
+    position: relative;
+}
+.item_1_wrapper:hover .overlay{
+    height: 100%;
+    opacity: 1;
+}
+.portfolio_img{
+    width: 100%;
+    height: auto;
+}
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #33333342;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+
+
+
+
+
+
+
+
+.plus_iocon{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    min-height: 297px;
+}
+.plus_iocon i{
+    color: #ffffff;
+    font-size: 50px;
+}
+.overlay_text{
+    background-color: #ffffff;
+    padding: 16px 0 16px 30px;
+}
+.overlay_title{
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 700;
+    color: #333333;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+.overlay_sub_title{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-bottom: 0    
+}
+/* {{{{{{{{{{{{{{{{{{{ Recent work (portfolio) Start }}}}}}}}}}}}} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =================================================== */
+/* {{{{{{{{{{{{{{{{{{{ Choose nipro start }}}}}}}}}}}}}}}} */
+/* =================================================== */
+.choose_wrapper{
+    border-bottom: 1px solid;
+    transition: .3s;
+}
+.choose_wrapper:hover{
+    border-bottom: 1px solid #333333;
+}
+.choose_wrapper:hover .choose_icon,
+.choose_wrapper:hover .choose_title{
+    color: #333333;
+}
+
+.choose_icon{
+    font-size: 48px;
+    padding-right: 20px;
+    transition: .3s;
+}
+.choose_title{
+    font-size: 18px;
+    margin: 0;
+    text-transform: uppercase;
+    transition: .3s;
+}
+.choose_text{
+    font-family: 'Roboto';
+    padding: 10px 0 30px 0;
+    margin: 0;
+}
+/* {{{{{{{{{{{{{{{{{{{ Choose nipto End }}}}}}}}}}}}}}}} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =================================================== */
 /* {{{{{{{{{{{{{{{{{{{Common css Start}}}}}}}}}}}}}}}} */
 /* =================================================== */
+.wwu_bg_img{
+    background-image: url(../img/wwu_bg_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.team_member{
+    cursor: pointer;
+}
+.team_bio{
+    padding: 20px;
+}
+.team_bio h2{
+    font-size: 18px;
+    font-weight: 700;
+    color: #333333;
+    text-transform: uppercase;
+}
+.team_bio p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+}
+.team_social{
+    position: relative;
+}
+.team_social ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 158px;
+    position: absolute;
+    top: -560px;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    background: #ffffff;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+}
+.team_member:hover ul{
+    visibility: visible;
+    opacity: 1;
+    top: -460px;
 
+}
+.team_social ul li a{
+    padding: 5px;
+    margin: 5px 0;
+    color: #969696;
+    font-size: 26px;
+    border-right: 1px solid transparent;
+    transition: .3s;
+}
+.team_social ul li a:hover{    
+    border-right: 1px solid #333333;
+    color: #333333;
+    background-color: #9696963b;
+}
 /* {{{{{{{{{{{{{{{{{{{Common css End}}}}}}}}}}}}}}}} */
 
 
 
 
 
-/* {{{{{{{{{{{{{{{{{{{Common css Start}}}}}}}}}}}}}}}} */
+
+
+
+
+
+
+
+
+
+
+
 /* =================================================== */
-
-/* {{{{{{{{{{{{{{{{{{{Common css End}}}}}}}}}}}}}}}} */
-
-
-
-
-
-/* {{{{{{{{{{{{{{{{{{{Common css Start}}}}}}}}}}}}}}}} */
+/* {{{{{{{{{{{{{{{{{{{ Pricing section Start}}}}}}}}}}}}}}}} */
 /* =================================================== */
+.basic_border{
+    border: 1px solid #969696;
+    transition: .3s;
+}
 
-/* {{{{{{{{{{{{{{{{{{{Common css End}}}}}}}}}}}}}}}} */
+.basic_border:hover{
+    border: 1px solid #333333;
+}
+
+.basic_Wrapper{
+    font-family: 'Roboto';
+    font-weight: 400;
+    padding: 0 24px;
+    margin-top: -15px;
+}
+.basic_Wrapper h2{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: black;
+    background-color: #ffffff;
+    display: inline-block;
+    padding: 5px;
+    margin: 0;
+}
+.basic_Wrapper h3{
+    padding: 30px 0 20px;
+    margin: 0;
+    color: #333333;
+}
+.basic_Wrapper h3 span{
+    font-size: 16px;
+    color: #969696;
+}
+.basic_Wrapper ul{
+    padding-bottom: 20px;
+}
+.basic_Wrapper ul li{
+    line-height: 35px;
+}
+.pricing_btn{
+    border: 1px solid #969696;
+    border-radius: 0;
+    margin-bottom: 40px;
+    transition: .3s;
+}
+.pricing_btn button{
+    color: #969696;
+    text-transform: uppercase;
+    margin: 0 auto;
+    border-radius: 0;
+    width: 100%;
+    transition: .3s;
+}
+.pricing_btn button:focus{
+    box-shadow: none;
+}
+.basic_border:hover .pricing_btn,
+.basic_border:hover .pricing_btn button{
+    color: #333333;
+    border-top: 1px solid #333333;
+    border-right: 1px solid #333333;
+    border-left: 1px solid #969696;
+    border-bottom: 1px solid #969696;
+}
+/* {{{{{{{{{{{{{{{{{{{ Pricing section End}}}}}}}}}}}}}}}} */
 
 
 
 
 
-/* {{{{{{{{{{{{{{{{{{{Common css Start}}}}}}}}}}}}}}}} */
+
+
+
+
+
+
+
+
+
+
+
 /* =================================================== */
-
-/* {{{{{{{{{{{{{{{{{{{Common css End}}}}}}}}}}}}}}}} */
-
-
-
-
-
-/* {{{{{{{{{{{{{{{{{{{Common css Start}}}}}}}}}}}}}}}} */
+/* {{{{{{{{{{{{{{{{{{{  Profile in details section Start }}}}}}}}}}}}}}}} */
 /* =================================================== */
+/* ++++++++++++++++++++++++++=+++
+{{{{{{{ First Section start }}}}}}}}
+++++++++++++++++++++++++++++++++ */
 
-/* {{{{{{{{{{{{{{{{{{{Common css End}}}}}}}}}}}}}}}} */
+.signUp_text{
+    padding: 40px 0;
+    font-size: 18px;
+    margin: 0;
+    cursor: pointer;
+}
+.signUp_btn{
+    margin: 30px 0;
+    font-size: 18px;
+    border: 1px solid #969696;
+    border-radius: 0;
+    padding: 6px 30px;
+    color: #969696;
+    transition: .3s;
+}
+.signUp_btn:hover{
+    color: #333333;
+    border: 1px solid #333333;
+}
+
+
+/* ++++++++++++++++++++++++++=+++
+{{{{{{{ First Section End }}}}}}}}
+++++++++++++++++++++++++++++++++ */
+
+/* ++++++++++++++++++++++++++=+++
+{{{{{{{ Second Section start }}}}}}}}
+++++++++++++++++++++++++++++++++ */
+.rayhan_text{}
+.rayhan_text h1{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.rayhan_text h3{
+    font-size: 16px;
+    padding: 10px 0;
+}
+.rayhan_text h2{
+    font-size: 18px;
+}
+.rayhan_text p{
+    font-family: initial;
+    font-size: 16px;
+    padding-top: 15px;
+    margin: 0;
+}
+
+
+
+.rayhan_btn{
+    padding: 40px 0;
+    height: 100%;
+}
+.btn_1{
+    transform: rotate(90deg);
+}
+.btn_1 button{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #969696;
+}
+.btn_1 button:hover{
+    color: #333333;
+}
+/* ++++++++++++++++++++++++++=+++
+{{{{{{{ Second Section End }}}}}}}}
+++++++++++++++++++++++++++++++++ */
+/* {{{{{{{{{{{{{{{{{{{  Profile in details section End }}}}}}}}}}}}}}}} */
 
 
 
 
 
-/* {{{{{{{{{{{{{{{{{{{Common css Start}}}}}}}}}}}}}}}} */
+
+
+
+
+
+
+
+
+
+
 /* =================================================== */
-
-/* {{{{{{{{{{{{{{{{{{{Common css End}}}}}}}}}}}}}}}} */
-
-
-
-
-
-/* {{{{{{{{{{{{{{{{{{{Common css Start}}}}}}}}}}}}}}}} */
+/* {{{{{{{{{{{{{{{{{{{ Contact section Start}}}}}}}}}}}}}}}} */
 /* =================================================== */
+.contact_title{
+    color: #333333;
+    background-color: #ffffff;
+    padding: 6px;
+    margin-top: -10px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.contact_form{
+    border: none;
+    border-bottom: 1px solid #969696;
+    border-radius: 0;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+.contact_form:focus{
+    color: #333333;
+    border-color: #333333;
+}
+.contact_btn{
+    border: 1px solid #969696;
+    border-radius: 0;
+    padding: 6px 25px;
+    color: #969696;
+    text-transform: uppercase;
+    margin: 35px 0;
+    transition: .3s;
+}
+.contact_btn:hover{
+    color: #333333;
+    border-top: 1px solid #333333;
+    border-right: 1px solid #333333;
+}
+/* {{{{{{{{{{{{{{{{{{{ Contact section End}}}}}}}}}}}}}}}} */
 
-/* {{{{{{{{{{{{{{{{{{{Common css End}}}}}}}}}}}}}}}} */
 
 
 
 
 
-/* {{{{{{{{{{{{{{{{{{{Common css Start}}}}}}}}}}}}}}}} */
+
+
+
+
+
+
+
+
+
+
 /* =================================================== */
+/* {{{{{{{{{{{{{{{{{{{ Nipro Agency Start}}}}}}}}}}}}}}}} */
+/* =================================================== */
+.footer_bg_img{
+    background-image: url(../img/footer_img.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.social_nipro_agency{}
+.social_nipro_agency ul{}
+.social_nipro_agency ul li a i{
+    min-width: 30px;}
+.social_nipro_agency ul li a{
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    transition: .3s;
+}
+.social_nipro_agency ul li a:hover{
+    color: #333333;
+    background-color: #ffffff;
+    border: 1px solid #333333;
+}
 
-/* {{{{{{{{{{{{{{{{{{{Common css End}}}}}}}}}}}}}}}} */
 
-
-
-
-
+.footer_link li a{
+    color: #969696;
+    transition: .3s;
+}
+.footer_link li a:hover{
+    color: white;
+}
+/* {{{{{{{{{{{{{{{{{{{ Nipro Agency End}}}}}}}}}}}}}}}} */

@@ -6,6 +6,13 @@
     .pb_100{
         padding-bottom: 40px;
     }
+    .px_100{
+        padding: 40px 0;
+    }
+    .c_title {
+        font-size: 28px;
+        margin-bottom: 28px;
+    }
     /*Common End*/
 
     /* Header start*/
@@ -41,9 +48,6 @@
     }
     /*Slider End*/
     /*Welcome section start*/
-    .c_title {
-        font-size: 28px;
-    }
     /*Welcome section start*/    
     /*About section start*/
     .about_title{
@@ -57,6 +61,63 @@
         margin: 12px 0;
     }
     /*About section End*/
+    /*Recent work (portfolio) Start*/
+    .portfolio_nav {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .plus_iocon {
+        min-height: 233px;
+    }
+    /*Recent work (portfolio) End*/
+    /*Recent work (portfolio) Start*/
+    .portfolio_nav {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .plus_iocon {
+        min-height: 470px;
+    }
+    /*Recent work (portfolio) End*/
+    /*Profile in details section Start*/
+    /*First section Start*/
+    .signUp_text{
+        font-size: 16px;
+        padding: 30px 0 0;
+    }
+    .signUp_btn{
+        width: 100%;
+    }
+    /*First section End*/
+
+
+
+
+
+    /*Second section start*/
+    .rayhan_text {
+        text-align: center;
+    }
+    .rayhan_text h1 {
+        padding-top: 10px;
+    }
+    .rayhan_text h3 {
+        padding: 0;
+    }
+    .rayhan_text p {
+        padding-top: 7px;
+    }
+    .btn_1{
+        transform: rotate(0deg);
+    }
+    /*Second section End*/    
+    /*Profile in details section End*/
+    /*Contact section Start*/
+    .contact_title {
+        font-size: 28px;
+    }
+    /*Contact section End*/
+
 
 }
 
@@ -116,6 +177,48 @@
         margin: 12px 0;
     }
     /*About section End*/
+    /*Recent work (portfolio) Start*/
+    .portfolio_nav {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .plus_iocon {
+        min-height: 470px;
+    }
+    /*Recent work (portfolio) End*/
+    /*Profile in details section Start*/
+    /*First section Start*/
+    .signUp_text{
+        font-size: 16px;
+    }
+    .signUp_btn{
+        padding: 6px 20px;
+    }
+    /*First section End*/
+
+
+
+
+
+    /*Second section start*/
+    .rayhan_text {
+        text-align: center;
+    }
+    .rayhan_text h1 {
+        padding-top: 10px;
+    }
+    .rayhan_text h3 {
+        padding: 0;
+    }
+    .rayhan_text p {
+        padding-top: 7px;
+    }
+    .btn_1{
+        transform: rotate(0deg);
+    }
+    /*Second section End*/
+    
+    /*Profile in details section End*/
 }
 
 
@@ -145,6 +248,9 @@
     /*Common start*/
     .pb_100{
         padding-bottom: 70px;
+    }
+    .px_100{
+        padding: 70px 0;
     }
     /*Common End*/
 
@@ -184,6 +290,55 @@
         margin: 12px 0;
     }
     /*About section End*/
+    /*Recent work (portfolio) Start*/
+    .portfolio_nav {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .plus_iocon {
+        min-height: 275px;
+    }
+    /*Recent work (portfolio) End*/
+    /*WWU start*/
+    .team_bio h2{
+        font-size: 16px;
+    }
+    .team_social ul{
+        height: 112px;
+        top: -560px;
+    }
+    .team_member:hover ul{
+        top: -385px;
+    
+    }
+    .team_social ul li a{
+        padding: 5px;
+        margin: 5px 0;
+        font-size: 18px;
+    }
+    /*WWU End*/
+    /*Profile in details section Start*/
+    /*First section Start*/
+
+    /*First section End*/
+
+
+
+
+
+    /*Second section start*/
+    .rayhan_text h3 {
+        padding: 0;
+    }
+    .rayhan_text p {
+        padding-top: 7px;
+    }
+    .btn_1{
+        transform: rotate(0deg);
+    }
+    /*Second section End*/
+    
+    /*Profile in details section End*/
 }
 
 
@@ -223,6 +378,11 @@
         margin: 12px 0;
     }
     /*About section End*/
+    /*Recent work (portfolio) Start*/
+    .plus_iocon {
+        min-height: 232px;
+    }
+    /*Recent work (portfolio) End*/
 }
 
 
